@@ -1,0 +1,19 @@
+[package]
+name = "simula-backend"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Backend components for the Simula 2025 compiler"
+license.workspace = true
+
+[dependencies]
+# Workspace dependencies
+log.workspace = true
+thiserror.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+
+# Backend-specific dependencies
+inkwell = "0.2"
+llvm-sys = "160"
+target-lexicon = "0.12" 

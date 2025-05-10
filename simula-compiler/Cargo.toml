@@ -1,0 +1,32 @@
+[workspace]
+members = [
+    "simula-frontend",
+    "simula-ir",
+    "simula-backend",
+    "simula-runtime",
+    "simula-verifier",
+    "simula-cli",
+    "simula-tests"
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Simula 2025 Team"]
+description = "A modern simulation-first programming language for AI and distributed systems"
+license = "MIT"
+
+[workspace.dependencies]
+# Common dependencies shared across crates
+log = "0.4"
+env_logger = "0.10"
+thiserror = "1.0"
+anyhow = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+clap = { version = "4.4", features = ["derive"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+tokio = { version = "1.0", features = ["full"] }
+async-trait = "0.1"
+futures = "0.3" 

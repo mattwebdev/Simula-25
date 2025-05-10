@@ -1,0 +1,22 @@
+[package]
+name = "simula-runtime"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Runtime components for the Simula 2025 language"
+license.workspace = true
+
+[dependencies]
+# Workspace dependencies
+log.workspace = true
+thiserror.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+tokio.workspace = true
+async-trait.workspace = true
+futures.workspace = true
+
+# Runtime-specific dependencies
+crossbeam-channel = "0.5"
+dashmap = "5.5"
+parking_lot = "0.12" 

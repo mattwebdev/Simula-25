@@ -1,0 +1,19 @@
+[package]
+name = "simula-frontend"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Frontend components for the Simula 2025 compiler"
+license.workspace = true
+
+[dependencies]
+# Workspace dependencies
+log.workspace = true
+thiserror.workspace = true
+anyhow.workspace = true
+
+# Frontend-specific dependencies
+logos = "0.14"
+lalrpop-util = "0.20"
+lalrpop = "0.20"
+rowan = "0.15" 

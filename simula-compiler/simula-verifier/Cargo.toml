@@ -1,0 +1,19 @@
+[package]
+name = "simula-verifier"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Verification tools for Simula 2025 programs"
+license.workspace = true
+
+[dependencies]
+# Workspace dependencies
+log.workspace = true
+thiserror.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+
+# Verification-specific dependencies
+proptest = "1.3"
+quickcheck = "1.0"
+rand = "0.8" 
