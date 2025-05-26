@@ -1,0 +1,26 @@
+[package]
+name = "simula-sim"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Enhanced simulation capabilities for AI models in Simula"
+license.workspace = true
+
+[dependencies]
+# Workspace dependencies
+log.workspace = true
+thiserror.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+tokio.workspace = true
+
+# Simulation-specific dependencies
+rand.workspace = true
+rand_distr.workspace = true
+statrs.workspace = true
+rayon.workspace = true
+
+# Internal dependencies
+simula-ai = { path = "../simula-ai" }
+simula-ml = { path = "../simula-ml" }
+simula-runtime = { path = "../simula-runtime" } 

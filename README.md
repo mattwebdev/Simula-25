@@ -1,6 +1,6 @@
 # Simula 25
 
-A modern simulation programming language designed for the 21st century, combining the power of discrete event simulation with modern language features.
+A modern domain-specific language designed for AI and AI model development, leveraging the power of discrete event simulation to create, test, and deploy intelligent systems.
 
 ## Historical Context
 
@@ -57,7 +57,13 @@ Simula 25 honors this legacy by modernizing these concepts while maintaining the
 
 ## Overview
 
-Simula 25 is a new programming language that brings simulation capabilities to the modern era. It combines the best practices from simulation languages like Simula 67 with modern language features, making it easier than ever to create complex simulations.
+Simula 25 reimagines the classic simulation language as a modern domain-specific language (DSL) for AI development. By combining Simula's powerful simulation capabilities with contemporary language features, it provides a natural and intuitive way to model, simulate, and deploy AI systems. The language's process-oriented nature and discrete event simulation capabilities make it particularly well-suited for:
+
+- Developing and testing AI models
+- Simulating complex AI systems and their interactions
+- Modeling real-world scenarios for AI training
+- Creating digital twins of AI-powered systems
+- Prototyping and validating AI architectures
 
 ## Project Structure
 
@@ -71,26 +77,30 @@ Simula 25 is a new programming language that brings simulation capabilities to t
 
 ### Language Features
 - Modern syntax with strong type system
-- Built-in simulation primitives
-- Concurrency and async/await support
-- Pattern matching and algebraic data types
+- Built-in simulation primitives for AI model development
+- Concurrency and async/await support for parallel AI processing
+- Pattern matching and algebraic data types for model representation
 - Memory safety without garbage collection
+- Native support for AI model components and architectures
 
-### Simulation Capabilities
-- Discrete event simulation
-- Process-oriented simulation
-- Statistical distributions
-- Resource management
-- Event scheduling
-- Data collection and analysis
+### AI Development Capabilities
+- Discrete event simulation for AI system modeling
+- Process-oriented simulation for complex AI workflows
+- Statistical distributions for model training and validation
+- Resource management for AI infrastructure simulation
+- Event scheduling for AI pipeline orchestration
+- Data collection and analysis for model evaluation
+- Built-in support for common AI architectures and patterns
+- Simulation-based testing of AI systems
 
 ### Development Tools
 - VS Code extension with:
   - Syntax highlighting
   - IntelliSense
   - Type checking
-  - Simulation preview
+  - AI model simulation preview
   - Language Server Protocol (LSP) support
+  - AI-specific code templates and patterns
 
 ## Getting Started
 
@@ -122,7 +132,7 @@ Simula 25 is a new programming language that brings simulation capabilities to t
 
 ## Contributing
 
-We welcome contributions!
+We welcome contributions! This project aims to create a powerful tool for AI developers, combining the best of simulation languages with modern AI development needs.
 
 ## License
 
@@ -134,3 +144,4 @@ This project is licensed under the MIT License
 - Built with Rust and TypeScript
 - Thanks to all contributors and the open-source community
 - Special thanks to the Norwegian Computing Center for preserving Simula's legacy
+- Dedicated to advancing AI development through simulation-based approaches
